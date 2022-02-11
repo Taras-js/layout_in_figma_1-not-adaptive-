@@ -4,13 +4,14 @@ const buttonClickBurger = document.querySelector('.wrap');
 let menuHtml = `<div class="form">
                     <form name="simple form" autocomplete="on" novalidate>
                         <fieldset class="fieldset">
-                            <legend class="legend"> Меню навигации сайта <button id='das' type="button" class="close" data-close="true">&times;</button></legend>
-                            <button type="button"> Наши проекты</button>
-                            <button type="button"> Сфера деятельности</button>
-                            <button type="button"> Ответы на вопросы</button>
-                            <button type="button"> Наши партнеры</button>
-                            <button type="button"> Отзывы</button>
-                            <button type="button"> Контакты</button>
+                            <legend class="legend"> Меню навигации сайта <button id="das"type="button" class="close" data-close="true">&times;</button></legend>
+                            <a href="#project"><button type="button"> Наши проекты </button></a>
+                            <a href="#areas-works"><button type="button"> Сфера деятельности </button></a>
+                            <a href="#answers__questions"><button type="button"> Ответы на вопросы </button></a>
+                            <a href="#partners"><button type="button"> Наши партнеры </button></a>
+                            <a href="#reviews"><button type="button"> Отзывы </button></a>
+                            <a href="#contacts"><button type="button"> Контакты </button></a>
+                            <a href="#starts"><button type="button"> В начало </button></a>
                         </fieldset>
                     </form>
                 </div>`
