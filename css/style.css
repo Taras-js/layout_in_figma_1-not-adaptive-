@@ -1,14 +1,13 @@
 body {
     position: relative;
     font-family: 'Oswald','Arial', sans-serif;
-    /*min-height: 5420px;*/
     max-width: 1920px;
     background-color: #FFFFFF;
     overflow-x: hidden;
 }
 .header {
     position: relative;
-    background-image: url("/img/header.png");
+    background-image: url("../img/header.png");
     height: 740px;
     border: 1px solid #000000;
 
@@ -38,7 +37,7 @@ body {
     position: fixed;
     width: 51px;
     height: 53px;
-    background-image: url("/img/menu-gamburger.png");
+    background-image: url("../img/menu-gamburger.png");
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     border: 1px solid black;
