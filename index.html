@@ -28,30 +28,7 @@
             <img class="logo" src="img/logo.png" alt="logo"/>
 
             <div class="wrap">
-                <button class="menu__burger">
-
-                </button>
-                <div class="form">
-                    <form action="scripts/app.js" name="simple form" autocomplete="on" novalidate>
-                        <fieldset class="fieldset">
-                            <legend class="legend"> Меню навигации сайта <a href="#">&times;</a></legend>
-
-
-                            <button type="button"> Наши проекты</button>
-
-                            <button type="button"> Сфера деятельности</button>
-
-                            <button type="button"> Ответы на вопросы</button>
-
-                            <button type="button"> Наши партнеры</button>
-
-                            <button type="button"> Отзывы</button>
-
-                            <button type="button"> Контакты</button>
-
-                        </fieldset>
-                    </form>
-                </div>
+                <button class="menu__burger" data-open="true"></button>
             </div>
 
 
@@ -77,9 +54,10 @@
         </section>
         <article class="project">
             <h2> НАШИ САМЫЕ БОЛЬШИЕ ПРОЕКТЫ </h2>
-            <div>
+            <div class="wrapper__figure">
                 <figure>
-                    <img src="/img/Rectangle%203.png" alt="Газпром арена">
+                    <img class="img" src="/img/Rectangle%203.png" alt="Газпром арена">
+                    <img class="line" src="/img/inline.png" alt="line">
                     <figcaption>
                         <h5> Газпром Арена </h5>
                         <p> Мы сделали самую красивую арену<br> в Европе. Это открытие
@@ -88,7 +66,8 @@
                     </figcaption>
                 </figure>
                 <figure>
-                    <img src="/img/Rectangle%203.png" alt="Газпром арена">
+                    <img class="img" src="/img/Rectangle%203.png" alt="Газпром арена">
+                    <img class="line" src="/img/inline.png" alt="line">
                     <figcaption>
                         <h5> Газпром Арена </h5>
                         <p> Мы сделали самую красивую арену<br> в Европе. Это открытие
@@ -97,7 +76,8 @@
                     </figcaption>
                 </figure>
                 <figure>
-                    <img src="/img/Rectangle%203.png" alt="Газпром арена">
+                    <img class="img" src="/img/Rectangle%203.png" alt="Газпром арена">
+                    <img class="line" src="/img/inline.png" alt="line">
                     <figcaption>
                         <h5> Газпром Арена </h5>
                         <p> Мы сделали самую красивую арену<br> в Европе. Это открытие
@@ -109,12 +89,15 @@
         </article>
         <section class="rectangle">
             <div>
-            <h4> САМЫЕ УМНЫЕ ПРОЕКТЫ </h4>
+            <h3> САМЫЕ УМНЫЕ ПРОЕКТЫ </h3>
             <h5> РЕАЛИЗУЕМ САМЫЕ СМЕЛЫЕ РЕШЕНИЯ В РОССИИ! </h5>
             </div>
-            <div>
+            <div class="wrapper__button">
                 <label>
-                <button type="button"><a  href="mailto:shev-taras@ya.ru?subject=Запрос по работе">  ВАШ ЗАПРОС </a></button>
+                <button class='rectangle__button'
+                                type="button">
+                    <img src="/img/mailto.png" alt="mailto">
+                    <a  href="mailto:shev-taras@ya.ru?subject=Запрос по работе"> ВАШ ЗАПРОС </a></button>
                 </label>
             </div>
 
@@ -122,48 +105,47 @@
 
 
         <section class="areas-works">
-            <h4> ЧЕМ МЫ ЗАНИМАЕМСЯ? </h4>
-            <div>
+            <h2> ЧЕМ МЫ ЗАНИМАЕМСЯ? </h2>
+            <div class="wrapper__works">
                 <figure>
-                    <img src="/img/home.png" alt="logo home">
-                    <figcaption> СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ </figcaption>
+                    <img class="home" src="/img/home.png" alt="logo home">
+                    <figcaption> СТРОИТЕЛЬСТВО <br> ОФИСНЫХ ЗДАНИЙ </figcaption>
                 </figure>
                 <figure>
                     <img src="/img/home.png" alt="logo home">
-                    <figcaption> СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ </figcaption>
+                    <figcaption> СТРОИТЕЛЬСТВО <br> ОФИСНЫХ ЗДАНИЙ </figcaption>
                 </figure>
                 <figure>
                     <img src="/img/home.png" alt="logo home">
-                    <figcaption> СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ </figcaption>
+                    <figcaption> СТРОИТЕЛЬСТВО <br> ОФИСНЫХ ЗДАНИЙ </figcaption>
                 </figure>
                 <figure>
                     <img src="/img/home.png" alt="logo home">
-                    <figcaption> СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ </figcaption>
+                    <figcaption> СТРОИТЕЛЬСТВО <br> ОФИСНЫХ ЗДАНИЙ </figcaption>
                 </figure>
                 <figure>
                     <img src="/img/home.png" alt="logo home">
-                    <figcaption> СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ </figcaption>
+                    <figcaption> СТРОИТЕЛЬСТВО <br> ОФИСНЫХ ЗДАНИЙ </figcaption>
                 </figure>
                 <figure>
                     <img src="/img/home.png" alt="logo home">
-                    <figcaption> СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ </figcaption>
+                    <figcaption> СТРОИТЕЛЬСТВО <br> ОФИСНЫХ ЗДАНИЙ </figcaption>
                 </figure>
             </div>
         </section>
 
         <section class="rectangle-img">
-            <figure>
                 <img src="/img/Rectangle%203height.png" alt="photo home">
                 <img src="/img/Rectangle%203height.png" alt="photo home">
                 <img src="/img/Rectangle%203height.png" alt="photo home">
                 <img src="/img/Rectangle%203height.png" alt="photo home">
                 <img src="/img/Rectangle%203height.png" alt="photo home">
                 <img src="/img/Rectangle%203height.png" alt="photo home">
-            </figure>
-
+                <img src="/img/Rectangle%203height.png" alt="photo home">
+                <img src="/img/Rectangle%203height.png" alt="photo home">
         </section>
 
-        <section class="areas-works">
+        <section class="answers__questions">
             <h4> ОТВЕТЫ НА ВОПРОСЫ </h4>
             <div>
                 <details>
@@ -199,22 +181,16 @@
 
 
         <section class="partners">
-            <h4> ЧЕМ МЫ ЗАНИМАЕМСЯ? </h4>
-            <div>
-                <figure>
                     <img src="/img/banner.png" alt="partners">
                     <img src="/img/banner.png" alt="partners">
                     <img src="/img/banner.png" alt="partners">
                     <img src="/img/banner.png" alt="partners">
                     <img src="/img/banner.png" alt="partners">
-                </figure>
-
-            </div>
         </section>
 
         <section class="reviews">
             <h2> отзывы о работе с нами </h2>
-            <div>
+            <div class="wrapper__reviews">
                 <figure>
                     <img src="/img/1.png" alt="logo">
                     <figcaption>
@@ -262,56 +238,46 @@
 
         <section class="rectangle">
             <div>
-                <h4> ХОТИТЕ С НАМИ РАБОТАТЬ? </h4>
+                <h3> ХОТИТЕ С НАМИ РАБОТАТЬ? </h3>
                 <h5> ОСТАВЬТЕ ЗАЯВКУ И МЫ СВЯЖЕМСЯ С ВАМИ! </h5>
             </div>
-            <div>
+            <div class="wrapper__button">
                 <label>
-                    <button type="button"><a  href="mailto:shev-taras@ya.ru?subject=Запрос по работе">  ВАШ ЗАПРОС </a></button>
+                    <button class='rectangle__button'
+                            type="button"><img src="/img/mailto.png" alt="mailto"><a  href="mailto:shev-taras@ya.ru?subject=Запрос по работе"> ВАШ ЗАПРОС </a></button>
                 </label>
             </div>
 
         </section>
-        <section class="reviews">
+        <section class="contacts">
             <h2> КОНТАКТЫ </h2>
-            <div>
-                <figure>
+            <div class="wrapper__contacts">
+                <figure class="container__contacts">
                     <img src="/img/map.png" alt="maps">
-                    <figcaption>
-                        <h2> АДРЕС </h2>
-                        <address> НЕВСКИЙ ПРОСПЕКТ 140,<br>
+                    <h6 class="contacts__h2 "> АДРЕС </h6>
+                    <address> НЕВСКИЙ ПРОСПЕКТ 140,<br>
                             ОФИС 140-142 </address>
-
-                    </figcaption>
                 </figure>
-                <figure>
+                <figure class="container__contacts">
                     <img src="/img/tel.png" alt="phone">
-                    <figcaption>
-                        <h2> ТЕЛЕФОН: </h2>
-                        <address> 8 (812) 111-22-33
+                    <h6 class="contacts__h2 "> ТЕЛЕФОН: </h6>
+                    <address> 8 (812) 111-22-33
                             <br>
                             8 (812) 111-22-33
-                        </address>
-
-                    </figcaption>
+                    </address>
                 </figure>
-                <figure>
+                <figure class="container__contacts">
                     <img src="/img/time_work.png" alt="time work">
-                    <figcaption>
-                        <h2> ВРЕМЯ РАБОТЫ: </h2>
+                    <h6 class="contacts__h2 "> ВРЕМЯ РАБОТЫ: </h6>
                         <address> ПН-СБ
                             <br>
                             10:00 - 20:00
                         </address>
-
-                    </figcaption>
                 </figure>
-                <figure>
+                <figure class="container__contacts">
                     <img src="/img/mail.png" alt="mail">
-                    <figcaption>
-                        <h2> E-MAIL: </h2>
-                        <address> INFO@VIP.RU </address>
-                    </figcaption>
+                    <h6 class="contacts__h2 "> E-MAIL: </h6>
+                    <address> INFO@VIP.RU </address>
                 </figure>
             </div>
         </section>
